@@ -4,4 +4,26 @@ title: About me
 subtitle: Get to know me better
 ---
 
-I'll add some more soon ;-)
+* **Education:**  
+   
+   * M.Sc. in Computer Science at Karlsruhe Insitute of Technology (2018)
+
+      *Thesis:* Multi-user Authentication for Systems with Simultaneous Usage
+
+   * B.Sc. Computer Science at Goethe University Frankfurt (2014)
+
+      *Thesis:* Certification of Security Relevant Application Properties using Static Analysis ([German Talk](https://github.com/arnoappenzeller/modifyClangStaticAnalyzer))
+
+
+* **Work:**
+
+	* iOS and macOS App Developement since 2012
+
+	  Released [12 apps](https://itunes.apple.com/us/developer/id515339331) with more than 130k downloads
+
+	* Founded Ratata GbR with a fellow student in 2015 to develop the iOS Content Blocker *Blockr*
+
+      Blockr was downloaded more than 100.000 times and gained some attention since it was [sued for unfair competition by Axel Springer](https://techcrunch.com/2015/11/23/axel-springer-goes-after-ios-9-ad-blockers-in-new-legal-battle/). After [winning](https://www.heise.de/newsticker/meldung/Adblocker-Axel-Springer-zieht-Klage-gegen-Blockr-zurueck-3240983.html) the lawsuit in 2016 we decided to shut down Blockr.
+
+* **General:**
+	* I'm interested in technology, music, movies and TV, politics, sports and people 
