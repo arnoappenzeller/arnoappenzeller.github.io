@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Portfolio
+permalink: "portfolio"
 subtitle: More about my past projects
 ---
 

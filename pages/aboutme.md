@@ -1,6 +1,7 @@
 ---
 layout: page
 title: About me
+permalink: "aboutme"
 subtitle: Get to know me better
 ---
 
