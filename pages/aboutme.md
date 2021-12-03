@@ -18,9 +18,11 @@ subtitle: Get to know me better
 
 * **Work:**
 
-	* iOS and macOS App Developement since 2012
+	* My day job is privacy and security research at Fraunhofer / Karlsruhe Institut of Technology
 
-	  Released [12 apps](https://itunes.apple.com/us/developer/id515339331) with more than 130k downloads
+	* iOS and macOS App Developement since 2012 
+
+	  Released [15 apps](https://itunes.apple.com/us/developer/id515339331) with more than 500k downloads
 
 	* Founded Ratata GbR with a fellow student in 2015 to develop the iOS Content Blocker *Blockr*
 
