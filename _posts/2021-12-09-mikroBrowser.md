@@ -55,10 +55,11 @@ I'm pretty interested in deliver the best possible web experience on iOS.
 
 You can get µBrowser on the AppStore for 99ct [here][2].
 
-Want to write about µBrowser? [Here is a presskit][1]. In addition if you have any questions please get in touch.
+Want to write about µBrowser? [Here is a presskit][5] [(Download the zip)][1]. In addition if you have any questions please get in touch.
 
 
 [1]:{{ site.url }}/files/mikroBrowser_presskit.zip
 [2]:https://apps.apple.com/us/app/µbrowser/id1590622755
 [3]:https://www.bloomberg.com/news/newsletters/2021-10-10/can-the-apple-watch-series-7-work-on-its-own-without-an-iphone-kulj7h7o
 [4]:https://9to5mac.com/2021/10/03/here-are-all-of-the-ways-watchos-8-and-series-7-point-to-greater-iphone-independence-and-whats-still-missing/
+[5]:{{ '/µbrowser_presskit' | prepend: site.baseurl }}
