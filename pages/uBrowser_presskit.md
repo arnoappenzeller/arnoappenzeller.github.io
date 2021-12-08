@@ -35,6 +35,15 @@ Also note that µBrowser uses the Authentication flow of watchOS for that reason
 # Images
 <p align="center" style="margin-top: 10px;">
   <img src="/img/presskitImgs/1_mainscreenWatch_screenshot.png" width="300">
+  <img src="/img/presskitImgs/2_2_websiteWatch_screenshot.png" width="300">
+  <img src="/img/presskitImgs/3_2_bookmarksWatch_screenshot.png" width="300">
+  <img src="/img/presskitImgs/4_2_mainScreenCompanion_screenshot.png" width="300">
+  <img src="/img/presskitImgs/5_2_addNewBookmarkCompanion_screenshot.png" width="300">
+  <img src="/img/presskitImgs/bookmarkmanagement_PromoBanner_neutral.png" width="300">
+  <img src="/img/presskitImgs/mikroBrowserPromoBanner1_neutral.png" width="600">
+  <img src="/img/presskitImgs/mikroBrowserPromoBanner2_neutral.png" width="600">
+  <img src="/img/presskitImgs/watchIcon.png" width="300">
+  <img src="/img/presskitImgs/watchscreens_PromoBanner_neutral.png" width="300">
   <img src="/img/presskitImgs/2_websiteWatch_screenshot.png" width="300">
   <img src="/img/presskitImgs/3_bookmarksWatch_screenshot.png" width="300">
   <img src="/img/presskitImgs/4_mainScreenCompanion_screenshot.png" width="300">
@@ -42,7 +51,6 @@ Also note that µBrowser uses the Authentication flow of watchOS for that reason
   <img src="/img/presskitImgs/bookmarkmanagement_PromoBanner.png" width="300">
   <img src="/img/presskitImgs/mikroBrowser_PromoBanner1.png" width="600">
   <img src="/img/presskitImgs/mikroBrowser_PromoBanner2.png" width="600">
-  <img src="/img/presskitImgs/watchIcon.png" width="300">
   <img src="/img/presskitImgs/watchscreens_PromoBanner.png" width="300">
 </p>
 
