@@ -782,7 +782,16 @@ td.gutter {
   }
 
   body a {
-    color: ##000000;
+    color: #8d8d92;
+  }
+
+  a {
+    color: #8d8d92;
+  }
+
+  .navbar-custom .navbar-brand,
+  .navbar-custom .nav li a{
+    color: #8d8d92;
   }
 
   .navbar-custom {
@@ -794,6 +803,15 @@ td.gutter {
   footer{
     background: #000000;
     border-top: 1px #eeeeee solid;
+  }
+
+  .pager li a {
+    background: 000000;
+    color: #eee;
+  }
+
+  h1, h2, h3, h4, h5, h6{
+     color: #8d8d92;
   }
 
 
