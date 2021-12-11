@@ -1,7 +1,7 @@
 ---
 layout: post
 title: µBrowser for Apple Watch
-subtitle: A basic Browser for watchOS
+subtitle: A basic browser for watchOS
 ---
 ![Three screenshots of µBrowser](/img/mikroBrowserPromoBanner1.png "µBrowser Screenshots")
 # Preface
