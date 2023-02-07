@@ -74,7 +74,7 @@ social-network-links:
   github: arnoappenzeller
   #twitter: arno_app
   stackoverflow: "1283056/arnoapp"
-  mastodon: @arno_app
+  mastodon: "@arno_app"
 
 # Select which share links to show in posts
 share-links-active:
