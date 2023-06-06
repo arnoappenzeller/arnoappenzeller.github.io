@@ -7,7 +7,7 @@ permalink: "privacypolicy"
 # Privacy Policy for apps and websites by me
 
 Unless stated otherwise none of my apps collect or stores any personal data outside of your device.
-No tracking frameworks are use.
+No tracking frameworks are used.
 If you have more questions feel free to contact me.
 The following privacy policy also applies.
 
