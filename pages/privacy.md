@@ -24,6 +24,9 @@ Gellertstr 6
 Telephone: 0151/241264  
 E-Mail: [mail@arno.app](mailto:mail@arno.app)  
 
+# VAT ID number
+VAT ID: DE357831251
+
 ## Disclaimer
 
 Accountability for content  
