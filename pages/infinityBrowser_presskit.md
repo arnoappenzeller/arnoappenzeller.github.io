@@ -1,7 +1,7 @@
 ---
 layout: page
 title: ∞Browser 
-permalink: "inifinity_browser_presskit"
+permalink: "infinity_browser_presskit"
 subtitle:  Browse on an infinite canvas
 ---
 
@@ -63,4 +63,4 @@ Features:
 </p>
 
 
-[1]:{{ site.url }}/files/InifinityBrowser_presskit.zip
+[1]:{{ site.url }}/files/InfinityBrowserPresskit.zip
