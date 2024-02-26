@@ -52,7 +52,7 @@ Features:
   <img src="/img/infinityBrowserPresskitImgs/Promo4.png" width="600">
   <img src="/img/infinityBrowserPresskitImgs/infinityBrowserIcon.png" width="300">
   <video controls width="700">
-  <source src="/img/infinityBrowserPresskitImgs/cc0-videos/InfinityBrowser_AppPreview.mp4" type="video/mp4" />
+  <source src="/img/infinityBrowserPresskitImgs/InfinityBrowser_AppPreview.mp4" type="video/mp4" />
   </video>
   <img src="/img/infinityBrowserPresskitImgs/mainWindow_alt.png" width="700">
   <img src="/img/infinityBrowserPresskitImgs/menuOptions_alt.png" width="700">
@@ -60,7 +60,6 @@ Features:
   <img src="/img/infinityBrowserPresskitImgs/Promo1_plain.png" width="600">
   <img src="/img/infinityBrowserPresskitImgs/Promo2_plain.png" width="600">
   <img src="/img/infinityBrowserPresskitImgs/Promo3_plain.png" width="600">
-  
 </p>
 
 
