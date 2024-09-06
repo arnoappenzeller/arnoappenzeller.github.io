@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Control Mark 
-permalink: "infinity_browser_presskit"
+permalink: "control-mark_presskit"
 subtitle:  Speed-dial bookmark buttons
 ---
 

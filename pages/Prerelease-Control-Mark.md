@@ -45,4 +45,4 @@ Want to write about Control Mark? [Here is a presskit][3] [(Download the zip)][1
 
 [1]:{{ site.url }}/files/ControlMarkPresskit.zip
 [2]:https://apps.apple.com/app/control-mark/id6670456731
-[3]:{{ '/control_mark_presskit' | prepend: site.baseurl }}
+[3]:{{ '/control-mark_presskit' | prepend: site.baseurl }}
