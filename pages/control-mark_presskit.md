@@ -33,7 +33,7 @@ Features:
   <img src="/img/ControlMarkPresskitImgs/appstoreScreen1.png" width="300">
   <img src="/img/ControlMarkPresskitImgs/appstoreScreen2.png" width="300">
   <img src="/img/ControlMarkPresskitImgs/appstoreScreen3.png" width="300">
-  <img src="/img/infinityBrowserPresskitImgs/AppIconMasked.png" width="300">
+  <img src="/img/ControlMarkPresskitImgs/AppIconMasked.png" width="300">
   <img src="/img/ControlMarkPresskitImgs/mainView_Device.png" width="300">
   <img src="/img/ControlMarkPresskitImgs/actionExt_Device.png" width="300">
   <img src="/img/ControlMarkPresskitImgs/cc_Device.png" width="300">
@@ -43,7 +43,7 @@ Features:
   <img src="/img/ControlMarkPresskitImgs/ControlMarkArtwork2.png" width="600">
   <img src="/img/ControlMarkPresskitImgs/MainView.png" width="300">
   <img src="/img/ControlMarkPresskitImgs/ActionExtension.png" width="300">
-  <img src="/img/infinityBrowserPresskitImgs/ControlCenter.png" width="300">
+  <img src="/img/ControlMarkPresskitImgs/ControlCenter.png" width="300">
   <img src="/img/ControlMarkPresskitImgs/ActionButton.png" width="300">
   <img src="/img/ControlMarkPresskitImgs/LockScreen.png" width="300">
 </p>
