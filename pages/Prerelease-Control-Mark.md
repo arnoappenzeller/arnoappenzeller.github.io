@@ -2,6 +2,7 @@
 layout: post
 title: Control Mark for iOS 18
 subtitle: Quick access to your favorite websites
+permalink: "control-mark-prerelease"
 ---
 ![Promo Banner of Control Mark](/img/ControlMarkArtwork1.png "Control Mark Screenshot")
 # Quick Actions on iOS
