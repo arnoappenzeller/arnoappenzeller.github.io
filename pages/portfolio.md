@@ -36,11 +36,13 @@ Some apps reached there end of support and are not available anymore.
 My most popular apps are:
 
 * [PiPifier](https://itunes.apple.com/app/pipifier-pip-for-every-web-video/id1234771095?mt=8): A Safari extension for macOS and iOS that enables Picture in Picture mode on every video on the web. This app uses JS and Swift technologies. It is also [open source](https://github.com/arnoappenzeller/PiPifier) (However, I am a bit behind maintaining the repository)
-![PiPifier_Demo_iOS](/img/pipifier_ios_usage "Demo iOS")
+![PiPifier_Demo_iOS](/img/pipifier_ios_usage.gif "Demo iOS")
 
 * [µBrowser](https://apps.apple.com/us/app/µbrowser/id1590622755): µBrowser was the first standalone web browser for Apple Watch. It was featured by Apple in US App Store and on the watchOS App Store.
 ![µBrowser](/img/mikroBrowserPromoBanner1.png "µBrowser")
-![µBrowserFeature](/img/uBrowser-Feature.PNG "µBrowser Feature")
+<p align="center">
+  <img src="/img/uBrowser-Feature.PNG" alt="µBrowser Feature" />
+</p>
 
 
 I created apps for every current Apple plattform in Objective-C, Swift, AppKit, UIKit, and SwiftUI. I am very eager to learn more about existing and new technologies
