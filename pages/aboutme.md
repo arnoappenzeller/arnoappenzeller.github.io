@@ -6,6 +6,9 @@ subtitle: Get to know me better
 ---
 
 * **Education:**  
+
+   * PhD (Dr. Ing.)  in Computer Science at Karlsruhe Insitute of Technology (2024)
+      *Thesis (German):* Datensouveränität für Betroffene über persönliche medizinische Daten durch technische Umsetzung einer datenschutzgerechten Forschungsplattform
    
    * M.Sc. in Computer Science at Karlsruhe Insitute of Technology (2018)
 
