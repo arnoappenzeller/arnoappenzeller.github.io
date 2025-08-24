@@ -28,8 +28,8 @@ In addition, ∞Browser 2.0 refines the browsing experience with new hover effec
 * Improved hover effects and refined UI for easier interaction
 
 ## Screenshots of the widgets (taken on device)
-[Widget Screenshot 1](/img/infinity_browser_widget1.png "∞Browser Widget Screenshot 1")  
-![Widget Screenshot 2](/img/infinity_browser_widget2.png "∞Browser Widget Screenshot 2")  
+![Widget Screenshot 1](/img/infinity_browser_widget1.PNG "∞Browser Widget Screenshot 1")  
+![Widget Screenshot 2](/img/infinity_browser_widget2.PNG "∞Browser Widget Screenshot 2")  
 
 
 # Links and Material
