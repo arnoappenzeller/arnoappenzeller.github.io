@@ -33,5 +33,5 @@ You can get µBrowser on the App Store [here][2].
 [//]: Want to write about µBrowser? [Here is a presskit][3] [(Download the zip)][1]. If you have any questions, feel free to get in touch.  
 
 [1]:{{ site.url }}/files/uBrowserPresskit.zip  
-[2]:https://apps.apple.com/app/id1544743900  
+[2]:https://apps.apple.com/us/app/µbrowser/id1590622755
 [3]:{{ '/ubrowser_presskit' | prepend: site.baseurl }}
