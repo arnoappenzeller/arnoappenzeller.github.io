@@ -25,7 +25,7 @@ It’s the fastest and most convenient way to get to the web when you’re on th
 * Quick search and URL entry on your wrist  
 
 ## Controls
-![µBrowser Screenshot 1](/img/mBrowser4_controls "µBrowser Screenshot 1")  
+![µBrowser Screenshot 1](/img/mBrowser4_controls.png "µBrowser Screenshot 1")  
 
 # Links and Material
 You can get µBrowser on the App Store [here][2].  
