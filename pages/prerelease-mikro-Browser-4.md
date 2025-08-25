@@ -2,7 +2,7 @@
 layout: post
 title: µBrowser for watchOS26
 subtitle: The web at your wrist
-permalink: "ubrowser-watchos26"
+permalink: "ubrowser-watchos26-prerelease"
 ---
 
 # The Web on Apple Watch
