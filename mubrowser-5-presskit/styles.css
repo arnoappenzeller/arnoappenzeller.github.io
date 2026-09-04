@@ -1,0 +1,119 @@
+:root {
+  color-scheme: dark;
+  --background: #050608;
+  --surface: #101318;
+  --surface-hover: #161b22;
+  --text: #f5f7fa;
+  --muted: #a6aeb9;
+  --accent: #36c9ff;
+  --border: rgba(255, 255, 255, 0.1);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background: var(--background);
+}
+
+body {
+  min-width: 320px;
+  margin: 0;
+  background:
+    radial-gradient(circle at 50% -20%, rgba(32, 169, 255, 0.2), transparent 38rem),
+    var(--background);
+  color: var(--text);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+main {
+  width: min(100% - 3rem, 75rem);
+  margin: 0 auto;
+  padding: clamp(4rem, 9vw, 8rem) 0 clamp(4rem, 8vw, 7rem);
+}
+
+.intro {
+  max-width: 48rem;
+  margin-bottom: clamp(3rem, 7vw, 5.5rem);
+}
+
+.eyebrow {
+  margin: 0 0 1rem;
+  color: var(--accent);
+  font-size: 0.875rem;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+}
+
+h1 {
+  margin: 0;
+  font-size: clamp(4rem, 12vw, 8.5rem);
+  font-weight: 750;
+  letter-spacing: -0.07em;
+  line-height: 0.88;
+}
+
+.description {
+  margin: clamp(2rem, 5vw, 3rem) 0 0;
+  color: var(--muted);
+  font-size: clamp(1.125rem, 2vw, 1.5rem);
+  line-height: 1.55;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: clamp(1rem, 2.5vw, 1.75rem);
+}
+
+.screenshot {
+  display: block;
+  overflow: hidden;
+  border: 1px solid var(--border);
+  border-radius: clamp(1.25rem, 3vw, 2rem);
+  background: var(--surface);
+  box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.35);
+  transition: background-color 180ms ease, border-color 180ms ease, transform 180ms ease;
+}
+
+.screenshot img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.screenshot:hover {
+  border-color: rgba(54, 201, 255, 0.42);
+  background: var(--surface-hover);
+  transform: translateY(-0.25rem);
+}
+
+.screenshot:focus-visible {
+  outline: 3px solid var(--accent);
+  outline-offset: 0.3rem;
+}
+
+@media (max-width: 52rem) {
+  .gallery {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 34rem) {
+  main {
+    width: min(100% - 2rem, 75rem);
+  }
+
+  .gallery {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .screenshot {
+    transition: none;
+  }
+}
