@@ -109,6 +109,46 @@ h1 {
   transform: translateY(-0.25rem);
 }
 
+.demo {
+  margin-top: clamp(3rem, 7vw, 5.5rem);
+}
+
+.demo h2 {
+  margin: 0 0 0.75rem;
+  font-size: clamp(1.5rem, 4vw, 2rem);
+  letter-spacing: -0.03em;
+}
+
+.demo-description {
+  max-width: 40rem;
+  margin: 0 0 1.5rem;
+  color: var(--muted);
+  font-size: 1.125rem;
+  line-height: 1.55;
+}
+
+.demo video {
+  display: block;
+  width: min(100%, 32rem);
+  height: auto;
+  border: 1px solid var(--border);
+  border-radius: 1.25rem;
+  background: var(--surface);
+}
+
+.video-download {
+  margin: 1rem 0 0;
+  font-size: 1.125rem;
+  line-height: 1.55;
+}
+
+.demo a {
+  color: var(--accent);
+  text-underline-offset: 0.2em;
+}
+
+.demo video:focus-visible,
+.demo a:focus-visible,
 .testflight-link:focus-visible,
 .screenshot:focus-visible {
   outline: 3px solid var(--accent);
