@@ -63,6 +63,24 @@ h1 {
   line-height: 1.55;
 }
 
+.testflight-link {
+  display: inline-block;
+  margin-top: 1.5rem;
+  padding: 0.875rem 1.25rem;
+  border-radius: 0.875rem;
+  background: var(--accent);
+  color: var(--background);
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.5;
+  text-decoration: none;
+}
+
+.testflight-link:hover {
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
+}
+
 .gallery {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -91,6 +109,7 @@ h1 {
   transform: translateY(-0.25rem);
 }
 
+.testflight-link:focus-visible,
 .screenshot:focus-visible {
   outline: 3px solid var(--accent);
   outline-offset: 0.3rem;
