@@ -94,7 +94,8 @@ h1 {
   outline-offset: 0.3rem;
 }
 
-.screenshots + .screenshots {
+.screenshots + .screenshots,
+.demo {
   margin-top: clamp(2.5rem, 5vw, 4rem);
   padding-top: clamp(2rem, 4vw, 3rem);
   border-top: 1px solid var(--border);
@@ -146,6 +147,45 @@ h2 {
 }
 
 .screenshot:focus-visible {
+  outline: 3px solid var(--accent);
+  outline-offset: 0.3rem;
+}
+
+.demo-description {
+  margin: -0.5rem 0 1.5rem;
+  color: var(--muted);
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.demo video {
+  display: block;
+  width: min(100%, 32rem);
+  height: auto;
+  padding: clamp(0.625rem, 1.25vw, 1rem);
+  border: 1px solid var(--border);
+  border-radius: 1.5rem;
+  background: #ffffff;
+  box-shadow: 0 1rem 2rem -1rem rgba(35, 81, 119, 0.22);
+}
+
+.video-download {
+  margin: 1rem 0 0;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.demo a {
+  color: var(--accent);
+  text-underline-offset: 0.2em;
+}
+
+.demo a:hover {
+  color: var(--accent-hover);
+}
+
+.demo video:focus-visible,
+.demo a:focus-visible {
   outline: 3px solid var(--accent);
   outline-offset: 0.3rem;
 }
