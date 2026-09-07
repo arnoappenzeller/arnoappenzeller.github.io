@@ -204,6 +204,10 @@ h2 {
   grid-template-columns: repeat(5, minmax(0, 1fr));
 }
 
+.ios-app-store-gallery {
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+}
+
 .app-store-gallery .screenshot {
   padding: 0.5rem;
   border-radius: 1rem;
