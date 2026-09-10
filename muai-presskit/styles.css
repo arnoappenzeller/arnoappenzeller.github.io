@@ -70,9 +70,43 @@ h1 {
   line-height: 1.6;
 }
 
-.testflight-link {
-  display: inline-block;
+.app-subtitle {
+  margin: 1rem 0 0;
+  color: var(--accent);
+  font-size: clamp(1.25rem, 3vw, 1.75rem);
+  line-height: 1.4;
+}
+
+.price {
+  display: grid;
+  gap: 0.375rem;
+  margin: 1.75rem 0 0;
+  font-size: 1.125rem;
+  line-height: 1.5;
+}
+
+.price > span {
+  color: var(--muted);
+  font-size: 0.875rem;
+}
+
+.purchase-note {
+  margin: 0.75rem 0 0;
+  color: var(--muted);
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.intro-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
   margin-top: 1.5rem;
+}
+
+.testflight-link,
+.app-store-link {
+  display: inline-block;
   padding: 0.875rem 1.25rem;
   border: 1px solid transparent;
   border-radius: 2rem;
@@ -85,11 +119,24 @@ h1 {
   text-decoration: none;
 }
 
+.testflight-link {
+  border-color: var(--border);
+  background: var(--surface);
+  box-shadow: none;
+  color: var(--accent);
+}
+
 .testflight-link:hover {
+  background: #ffffff;
+  border-color: var(--accent);
+}
+
+.app-store-link:hover {
   background: var(--accent-hover);
 }
 
-.testflight-link:focus-visible {
+.testflight-link:focus-visible,
+.app-store-link:focus-visible {
   outline: 3px solid var(--accent);
   outline-offset: 0.3rem;
 }
@@ -162,8 +209,137 @@ h1 {
   padding: clamp(1rem, 2.5vw, 1.5rem);
 }
 
+.press-copy {
+  color: var(--muted);
+  font-size: 1rem;
+  line-height: 1.65;
+}
+
+.press-copy > p,
+.press-copy > ul {
+  max-width: 75ch;
+  margin: 0 0 1.25rem;
+}
+
+.press-copy > :last-child {
+  margin-bottom: 0;
+}
+
+.press-copy ul {
+  padding-left: 1.25rem;
+}
+
+.press-copy li + li {
+  margin-top: 0.5rem;
+}
+
+.technical-details {
+  margin: 0;
+}
+
+.technical-details > div {
+  display: grid;
+  grid-template-columns: minmax(8rem, 1fr) minmax(0, 3fr);
+  gap: 0.375rem 1.5rem;
+  padding: 1rem 0;
+}
+
+.technical-details > div:first-child {
+  padding-top: 0;
+}
+
+.technical-details > div:last-child {
+  padding-bottom: 0;
+}
+
+.technical-details > div + div {
+  border-top: 1px solid var(--border);
+}
+
+.technical-details dt {
+  color: var(--text);
+  font-weight: 600;
+}
+
+.technical-details dd {
+  margin: 0;
+  max-width: 75ch;
+}
+
+.press-footer {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 2rem;
+  margin-top: 3rem;
+  padding-top: 2rem;
+  border-top: 1px solid var(--border);
+  font-size: 1rem;
+  line-height: 1.6;
+  overflow-wrap: anywhere;
+}
+
+.press-links {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.press-links li + li {
+  margin-top: 0.5rem;
+}
+
+.press-footer address {
+  font-style: normal;
+}
+
+.press-footer p {
+  margin: 0 0 0.5rem;
+}
+
+.press-footer a {
+  color: var(--accent);
+  text-underline-offset: 0.2em;
+}
+
+.press-footer a:hover {
+  color: var(--accent-hover);
+}
+
+.press-footer a:focus-visible {
+  outline: 3px solid var(--accent);
+  outline-offset: 0.3rem;
+}
+
 .screenshot-group + .screenshot-group {
   margin-top: 2rem;
+}
+
+.icon-gallery {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 14rem));
+  gap: clamp(1rem, 2.5vw, 1.75rem);
+}
+
+.app-icon-download {
+  color: var(--accent);
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.5;
+  text-decoration: none;
+}
+
+.icon-gallery .app-icon-download img {
+  border-radius: 0;
+}
+
+.app-icon-download span {
+  display: block;
+  margin-top: 0.75rem;
+}
+
+.app-icon-download:hover span {
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
 }
 
 h3 {
@@ -188,7 +364,7 @@ h2 {
 }
 
 .download-note {
-  margin: 0 0 1rem;
+  margin: 2rem 0 1rem;
   color: var(--muted);
   font-size: 0.875rem;
   line-height: 1.5;
@@ -295,5 +471,14 @@ h2 {
 
   .gallery {
     grid-template-columns: 1fr;
+  }
+
+  .technical-details > div,
+  .press-footer {
+    grid-template-columns: 1fr;
+  }
+
+  .icon-gallery {
+    grid-template-columns: minmax(0, 14rem);
   }
 }
