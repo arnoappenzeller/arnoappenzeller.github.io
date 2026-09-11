@@ -65,7 +65,6 @@ h1 {
 
 .testflight-link {
   display: inline-block;
-  margin-top: 1.5rem;
   padding: 0.875rem 1.25rem;
   border-radius: 0.875rem;
   background: var(--accent);
@@ -79,6 +78,128 @@ h1 {
 .testflight-link:hover {
   text-decoration: underline;
   text-underline-offset: 0.2em;
+}
+
+.price {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.5rem 1rem;
+  margin: 1.5rem 0 0;
+  color: var(--muted);
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.price strong {
+  color: var(--text);
+  font-size: 1.5rem;
+}
+
+.intro-links {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.75rem 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.app-store-link {
+  display: inline-block;
+  padding: 0.875rem 0;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.app-store-link,
+.press-contact a {
+  color: var(--accent);
+  text-underline-offset: 0.2em;
+  overflow-wrap: anywhere;
+}
+
+.press-copy {
+  max-width: 52rem;
+  color: var(--muted);
+  font-size: 1rem;
+  line-height: 1.65;
+  overflow-wrap: anywhere;
+}
+
+.press-copy p,
+.press-copy ul {
+  margin: 0 0 1rem;
+}
+
+.press-copy > :last-child,
+#description-text > :last-child {
+  margin-bottom: 0;
+}
+
+.press-copy h3 {
+  margin: 2rem 0 0.75rem;
+  color: var(--text);
+  font-size: 1.125rem;
+  line-height: 1.5;
+}
+
+.press-copy ul {
+  padding-left: 1.25rem;
+}
+
+.press-copy li + li {
+  margin-top: 0.5rem;
+}
+
+.technical-details {
+  margin: 0;
+}
+
+.technical-details > div + div {
+  margin-top: 1.25rem;
+}
+
+.technical-details dt {
+  color: var(--text);
+  font-weight: 600;
+}
+
+.technical-details dd {
+  margin: 0.25rem 0 0;
+}
+
+.press-contact {
+  margin-top: clamp(3rem, 7vw, 5.5rem);
+  padding-top: 2rem;
+  border-top: 1px solid var(--border);
+  font-size: 1rem;
+  line-height: 1.65;
+}
+
+.press-contact h2 {
+  margin: 0 0 1rem;
+  font-size: 1.5rem;
+  line-height: 1.35;
+  letter-spacing: -0.025em;
+}
+
+.press-contact address {
+  color: var(--muted);
+  font-style: normal;
+}
+
+.press-contact address p {
+  margin: 0 0 0.5rem;
+}
+
+.contact-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 1.5rem;
+  padding: 0;
+  margin: 1rem 0 0;
+  list-style: none;
 }
 
 .asset-sections {
@@ -262,6 +383,8 @@ h1 {
 .demo video:focus-visible,
 .demo a:focus-visible,
 .testflight-link:focus-visible,
+.app-store-link:focus-visible,
+.press-contact a:focus-visible,
 .screenshot:focus-visible {
   outline: 3px solid var(--accent);
   outline-offset: 0.3rem;
@@ -286,5 +409,100 @@ h1 {
 @media (prefers-reduced-motion: reduce) {
   .screenshot {
     transition: none;
+  }
+}
+
+
+.copy-controls {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem 0.75rem;
+  margin: 0.75rem 0 1rem;
+}
+
+.copy-controls[hidden] {
+  display: none;
+}
+
+.copy-button {
+  min-height: 2.75rem;
+  padding: 0.5rem 0.75rem;
+  border: 1px solid var(--border);
+  border-radius: 0.625rem;
+  background: var(--surface);
+  color: var(--accent);
+  font: inherit;
+  font-size: 0.875rem;
+  font-weight: 600;
+  line-height: 1.5;
+  cursor: pointer;
+}
+
+.copy-button:hover {
+  background: var(--surface-hover);
+  border-color: var(--accent);
+}
+
+.copy-button:focus-visible {
+  outline: 3px solid var(--accent);
+  outline-offset: 0.3rem;
+}
+
+.copy-status {
+  color: var(--muted);
+  font-size: 0.875rem;
+  line-height: 1.5;
+}
+
+.clipboard-buffer {
+  position: fixed;
+  top: 0;
+  left: -9999px;
+  font-size: 16px;
+}
+
+
+.icon-gallery {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 2rem;
+  max-width: 34rem;
+}
+
+.icon-download {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+  min-width: 0;
+  color: var(--accent);
+  font-size: 1.125rem;
+  font-weight: 600;
+  line-height: 1.5;
+  text-decoration: none;
+}
+
+.icon-download img {
+  display: block;
+  width: 100%;
+  max-width: 16rem;
+  height: auto;
+}
+
+.icon-download:hover > span {
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
+}
+
+.icon-download:focus-visible {
+  outline: 3px solid var(--accent);
+  outline-offset: 0.3rem;
+  border-radius: 0.5rem;
+}
+
+@media (max-width: 34rem) {
+  .icon-gallery {
+    grid-template-columns: 1fr;
   }
 }
