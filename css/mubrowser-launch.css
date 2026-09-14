@@ -1,0 +1,52 @@
+/* Media layout for the µBrowser launch post; typography comes from the blog theme. */
+.mubrowser-launch-gallery {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.25rem;
+  margin: 2rem 0 3rem;
+}
+
+.mubrowser-launch-gallery figure,
+.mubrowser-launch-demo {
+  min-width: 0;
+  margin: 0;
+}
+
+.mubrowser-launch-gallery img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+}
+
+.mubrowser-launch-gallery figcaption,
+.mubrowser-launch-demo figcaption {
+  margin-top: 0.65rem;
+  color: #666;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.mubrowser-launch-demo {
+  max-width: 360px;
+  margin: 2rem auto 3rem;
+}
+
+.mubrowser-launch-demo video {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  background: #000;
+}
+
+@media (max-width: 480px) {
+  .mubrowser-launch-gallery {
+    gap: 0.65rem;
+  }
+
+  .mubrowser-launch-gallery figcaption {
+    font-size: 14px;
+  }
+}
