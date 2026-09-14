@@ -89,13 +89,21 @@ h1 {
 
 .app-store-link {
   display: inline-block;
-  padding: 0.875rem 0;
+  padding: 0.875rem 1.25rem;
+  border-radius: 0.875rem;
+  background: var(--accent);
+  color: var(--background);
   font-size: 1rem;
-  font-weight: 600;
+  font-weight: 700;
   line-height: 1.5;
+  text-decoration: none;
 }
 
-.app-store-link,
+.app-store-link:hover {
+  text-decoration: underline;
+  text-underline-offset: 0.2em;
+}
+
 .press-contact a {
   color: var(--accent);
   text-underline-offset: 0.2em;
