@@ -1,0 +1,28 @@
+Duometry — Facts & requirements
+
+App: Duometry · Version 1.0 · Developed by Arno Appenzeller.
+
+iPhone: iOS 17 or later. On phones without hinge input, Guess the Angle uses a slider.
+
+Duo experience: iPhone Duo with iOS 27.1 or later and available hinge input. In Solo and Together, match the visible target number by folding; the live reading stays hidden until reveal.
+
+Players & rounds: Solo or two to eight players passing one device. Five or ten rounds per game.
+
+Daily challenges: Duo only. Three date-defined targets each day: Daily Fold or By Eye. The target disappears before guessing. Weekly completion tracking, saved official results and repeat practice.
+
+Free Measure: Live hinge-angle readings on Duo, with Hold and Resume. On other iPhones, a slider controls the illustration and displayed angle.
+
+Appearance: System, Light or Dark. Angle and Duo illustration styles can be chosen for measurement and guessing, with a separate reveal-style preference.
+
+Connectivity & storage: Offline play. No accounts, analytics or online multiplayer. Completed solo history, Daily attempts and preferences are stored locally. Daily attempts resume after quitting; active Solo and Together games do not.
+
+Press materials: English and German press copy. 17 English screenshots, three feature images, a 1024 × 1024 app icon and an earlier feature-tour video.
+
+Price: To be announced.
+
+Release date: To be announced.
+
+TestFlight: Join the beta on TestFlight: https://testflight.apple.com/join/PUm89hu7
+
+Press contact: Arno Appenzeller · arno.appenzeller@gmail.com
+Website: https://arno.app
