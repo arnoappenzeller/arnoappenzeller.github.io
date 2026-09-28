@@ -8,6 +8,7 @@ root = Path(__file__).resolve().parent.parent
 sources = json.loads((root / 'asset-sources.json').read_text())
 names = ['README.md', 'asset-sources.json', 'icons/duometry-ios-1024.png',
          'videos/duometry-features-demo.mp4', 'videos/duometry-duo-poster.png']
+names += [sources['teaser']['file'], sources['teaser']['poster']['file']]
 names += [item['file'] for item in sources['screenshots'] + sources['artwork']]
 names += [path.relative_to(root).as_posix() for path in sorted((root / 'text').glob('*.txt'))]
 archive = root / 'downloads/duometry-presskit.zip'

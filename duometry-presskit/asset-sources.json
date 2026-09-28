@@ -283,5 +283,24 @@
   "reference_presskits": [
     "mubrowser-5-presskit",
     "muai-presskit"
-  ]
+  ],
+  "teaser": {
+    "file": "videos/Duometry-Trailer-EN-16x9-v1.0-Digital-Clouds.mp4",
+    "source": "Duometry-Trailer-EN-16x9-v1.0/Duometry-Trailer-EN-16x9-v1.0-Digital-Clouds.mp4",
+    "source_note": "Approved final export from the Duometry video project, copied byte-for-byte without re-encoding or audio changes.",
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "duration_seconds": 20.733333,
+    "audio": "Digital Clouds soundtrack; stereo AAC, 48 kHz",
+    "bytes": 2703587,
+    "sha256": "23f7af461a1180b779a262b08b5369e33685b2c387fd1fe5b3c25a97734dc4ec",
+    "poster": {
+      "file": "videos/duometry-trailer-poster.jpg",
+      "source_frame_seconds": 1.8,
+      "width": 1920,
+      "height": 1080,
+      "sha256": "8efca58b71a817a6325a85b02695ba82c1d98913f7089e6172067b48face0fe9"
+    }
+  }
 }
