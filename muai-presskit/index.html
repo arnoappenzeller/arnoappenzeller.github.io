@@ -10,7 +10,7 @@ sitemap: false
   <meta name="robots" content="noindex, nofollow">
   <meta name="description" content="µAI is now available on the App Store. Press kit: free download and $2.99 one-time unlock, App Store description, requirements, iOS and watchOS app icons, English and German screenshots, demo video, and press contact.">
   <title>µAI — Press Kit</title>
-  <link rel="stylesheet" href="styles.css?v=57e96268ea82">
+  <link rel="stylesheet" href="styles.css?v=bd2e13dbf1c1">
   <script src="presskit.js?v=1aac4559927c" defer></script>
 </head>
 <body>
@@ -44,35 +44,62 @@ sitemap: false
       </div>
     </details>
 
+    <section class="press-section availability" id="availability-siri" aria-labelledby="availability-title">
+      <div class="section-content press-copy">
+        <h2 id="availability-title">Availability and Siri AI</h2>
+        <p>µAI is an independent app with its own chat interface on Apple Watch, iPhone, and iPad. It uses Apple Foundation Models and Private Cloud Compute to generate answers. It does not enable Siri AI or change your Siri AI enrollment.</p>
+        <p>Apple currently lists Siri AI as unavailable on iOS, iPadOS, and watchOS in the EU. That is a separate product availability statement, not a test of µAI. <a href="https://support.apple.com/en-us/127893">Apple’s Siri AI requirements</a> · Checked October 6, 2026.</p>
+        <h3>Documented device test</h3>
+        <dl class="technical-details">
+          <div>
+            <dt>Device &amp; software</dt>
+            <dd>Apple Watch Ultra 2 · watchOS 27.0 (24R5358a) · µAI 1.0, development build 1 · September 5, 2026.</dd>
+          </div>
+          <div>
+            <dt>Language &amp; result</dt>
+            <dd>German and English app-language launches. New concise and detailed answers were generated on the physical Watch; the <a href="#screenshots-en">original Watch screenshots</a> document that session. Device and Siri language settings were not recorded.</dd>
+          </div>
+          <div>
+            <dt>EU &amp; Siri AI evidence</dt>
+            <dd>Test country, Apple Account region, and Siri AI enrollment status were not recorded for this session. It does not establish availability across the EU or whether Siri AI access was needed.</dd>
+          </div>
+        </dl>
+      </div>
+    </section>
+
     <details class="press-section" id="requirements">
       <summary>
-        <h2>Requirements &amp; technical details<span class="section-meta">Apple Watch · iPhone · iPad · Apple Private Cloud Compute</span></h2>
+        <h2>Requirements &amp; technical details<span class="section-meta">Installing µAI · Reading saved chats · Generating new answers</span></h2>
       </summary>
       <div class="section-content press-copy">
         <dl class="technical-details">
           <div>
-            <dt>Apple Watch</dt>
-            <dd>watchOS 27 or later, with Apple Intelligence and Private Cloud Compute available.</dd>
+            <dt>Installation</dt>
+            <dd>Apple Watch: watchOS 27 or later. iPhone: iOS 27 or later. iPad: iPadOS 27 or later. The OS version alone does not guarantee access to new AI answers.</dd>
           </div>
           <div>
-            <dt>iPhone &amp; iPad</dt>
-            <dd>iOS 27 or iPadOS 27 or later.</dd>
+            <dt>Reading saved chats</dt>
+            <dd>Chats already saved on a device remain readable offline, including when Private Cloud Compute is unavailable. Syncing conversations and attachments to another device requires an internet connection and iCloud with the same Apple Account.</dd>
+          </div>
+          <div>
+            <dt>Generating new answers</dt>
+            <dd>On Apple Watch, iPhone, and iPad, new answers require Apple Intelligence-compatible hardware, an internet connection, and Private Cloud Compute availability for the device, Apple Account, region, and language. Apple’s daily usage limits apply. The app explains when the service is unavailable or the daily usage limit has been reached.</dd>
+          </div>
+          <div>
+            <dt>Apple Watch setup</dt>
+            <dd>Apple’s Apple Intelligence requirements include pairing a supported Watch with an Apple Intelligence-enabled iPhone. See <a href="https://support.apple.com/en-us/121115">Apple’s current device, language, and setup requirements</a>.</dd>
+          </div>
+          <div>
+            <dt>Continuing on iPhone &amp; iPad</dt>
+            <dd>You can start new chats and ask follow-up questions on iPhone and iPad when the AI requirements above are met and µAI is unlocked. If Private Cloud Compute is unavailable on that device, you can still read conversations already saved there.</dd>
           </div>
           <div>
             <dt>Purchase &amp; free trial</dt>
-            <dd>Try your first question on Apple Watch for free, including one longer answer to that question. Unlock new questions, follow-ups, and longer answers with a one-time in-app purchase on Apple Watch, iPhone, or iPad. Your purchase works across devices with the same Apple Account. No µAI subscription or per-message fees. Regional prices may vary; Apple’s daily usage limits apply.</dd>
+            <dd>Try your first question on Apple Watch for free, including one longer answer to that question. Unlock new questions, follow-ups, and longer answers with a one-time in-app purchase on Apple Watch, iPhone, or iPad. Your purchase works across devices with the same Apple Account. No µAI subscription or per-message fees. Regional prices may vary. An optional iCloud+ upgrade for more PCC access may cost extra.</dd>
           </div>
           <div>
-            <dt>Connectivity</dt>
-            <dd>New answers require an internet connection. Previously saved chats remain readable offline.</dd>
-          </div>
-          <div>
-            <dt>AI &amp; availability</dt>
-            <dd>Powered by Apple Foundation Models and Private Cloud Compute. Availability depends on your device, Apple Account, region, and language. Apple’s daily usage limits apply; an optional iCloud+ upgrade for more access may cost extra.</dd>
-          </div>
-          <div>
-            <dt>Storage &amp; sync</dt>
-            <dd>Saved chats and attachments are stored locally and sync through your private iCloud database. Questions, relevant conversation history, and attached photos are processed using Apple Private Cloud Compute.</dd>
+            <dt>Storage &amp; processing</dt>
+            <dd>Saved chats and attachments are stored locally and sync through your private iCloud database. Questions, relevant conversation history, and attached photos are processed using <a href="https://developer.apple.com/documentation/foundationmodels/adding-server-side-intelligence-with-private-cloud-compute">Apple Private Cloud Compute</a>.</dd>
           </div>
         </dl>
       </div>

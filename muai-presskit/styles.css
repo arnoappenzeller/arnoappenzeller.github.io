@@ -236,6 +236,24 @@ h1 {
   margin-top: 0.5rem;
 }
 
+.availability h3 {
+  color: var(--text);
+}
+
+.press-copy a {
+  color: var(--accent);
+  text-underline-offset: 0.2em;
+}
+
+.press-copy a:hover {
+  color: var(--accent-hover);
+}
+
+.press-copy a:focus-visible {
+  outline: 3px solid var(--accent);
+  outline-offset: 0.3rem;
+}
+
 .technical-details {
   margin: 0;
 }
