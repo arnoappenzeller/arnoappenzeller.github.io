@@ -25,5 +25,11 @@ document.querySelectorAll("details.press-section").forEach((section) => {
   });
 });
 
+document.querySelectorAll('a[href^="#"]').forEach((link) => {
+  link.addEventListener("click", () => {
+    if (link.hash === window.location.hash) openLinkedSection();
+  });
+});
+
 window.addEventListener("hashchange", openLinkedSection);
 openLinkedSection();
