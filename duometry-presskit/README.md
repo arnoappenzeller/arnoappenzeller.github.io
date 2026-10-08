@@ -8,12 +8,15 @@ Standalone Jekyll page following the µBrowser 5.0 and µAI press kits. Public r
 - Current graphite/citron app icon, 1024 × 1024 PNG, in `icons/`.
 - Six current, unframed English screenshots in a collapsed section at the end: three Duo inner-display captures at 2007 × 2853 and three iPhone captures at 1206 × 2622. Individual original PNG downloads and `downloads/duometry-raw-screenshots.zip` are available.
 - Three feature images at 2400 × 1600 in `artwork/`.
+- Five English App Store Duo images, 2007 × 2853, in `screenshots/app-store-duo/`. The expandable section follows the feature images. Original marketing wording and device frames are preserved. Individual PNGs and `downloads/duometry-app-store-duo.zip` are available.
 - Approved 21-second English teaser trailer, 1920 × 1080 at 30 fps, with the Digital Clouds soundtrack. The original MP4 is copied byte-for-byte; the poster is extracted at 1.8 seconds. Both pages share these files in `videos/`.
 - The older feature tour remains at its original URL for existing links, but is excluded from the page and current downloads.
 - Complete asset bundle: `downloads/duometry-presskit.zip`.
-- Image-only bundle with the selected raw screenshots, feature artwork and icon: `downloads/duometry-images.zip`.
+- Image-only bundle with the selected raw screenshots, App Store Duo images, feature artwork and icon: `downloads/duometry-images.zip`.
 
 The six raw PNGs are copied unchanged from the October 6–7, 2026 App Store capture set. Their RGB pixels match the native Simulator originals; only redundant opaque alpha was removed in the capture delivery. Production SwiftUI views use deterministic sample input and players. No device frames, promotional text or crops are added. Feature images retain the September 2026 artwork. `asset-sources.json` records source paths and checksums. Earlier screenshot files remain on disk for old direct links, but are excluded from the current gallery and rebuilt ZIPs.
+
+The Duo marketing images are copied unchanged from `Design/AppStore/2026-10-08-Duo-Framed-v1-Localized/Promos/en/`. The source set records official Apple frames for images 02–04. It labels the folded images 01 and 05 as concept renders using the existing trailer model, with commercial rights unverified. This provenance status is retained in `asset-sources.json`; inclusion here does not establish rights clearance.
 
 ## Product copy
 
@@ -27,4 +30,4 @@ Public beta invitation: [https://testflight.apple.com/join/PUm89hu7](https://tes
 
 On-page English/German descriptions and facts use short prose; their text downloads add TestFlight and contact information. Image sizes appear once per group. Detailed provenance and soundtrack credits stay in this README and the manifest. Copy controls are in the existing `presskit.js`; descriptions, downloads, TestFlight links and details sections work without JavaScript. Preview through Jekyll so front matter is removed. The page has no Liquid expressions or layout dependencies, so an isolated static preview can also remove only the YAML front matter.
 
-After editing assets or text, run `python3 _tools/rebuild_downloads.py` from this directory. The full ZIP includes only the current manifest-listed screenshots/artwork, icon, the trailer and its poster, press text, README and provenance manifest. The same manifest also generates the image-only and raw-screenshot ZIPs, keeping every download aligned with the page. The raw ZIP contains only the six PNGs; the image ZIP adds feature artwork and the app icon. `/short/` stays unchanged.
+After editing assets or text, run `python3 _tools/rebuild_downloads.py` from this directory. The full ZIP includes only the current manifest-listed raw screenshots, App Store Duo images and artwork, icon, the trailer and its poster, press text, README and provenance manifest. The same manifest also generates the image-only, App Store Duo and raw-screenshot ZIPs, keeping every download aligned with the page. The raw ZIP contains only the six PNGs; the Duo ZIP contains only its five original PNGs; the image ZIP includes both sets, feature artwork and the app icon. `/short/` stays unchanged.

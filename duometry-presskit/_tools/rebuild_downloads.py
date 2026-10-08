@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Rebuild the press, image and raw-screenshot ZIPs from one asset manifest."""
+"""Rebuild the press and image ZIPs from one asset manifest."""
 import json
 from pathlib import Path
 import zipfile
@@ -7,7 +7,8 @@ import zipfile
 root = Path(__file__).resolve().parent.parent
 sources = json.loads((root / 'asset-sources.json').read_text())
 screenshots = [item['file'] for item in sources['screenshots']]
-images = screenshots + [item['file'] for item in sources['artwork']] + ['icons/duometry-ios-1024.png']
+app_store = [item['file'] for item in sources['app_store_screenshots']]
+images = screenshots + app_store + [item['file'] for item in sources['artwork']] + ['icons/duometry-ios-1024.png']
 press = ['README.md', 'asset-sources.json'] + images
 press += [sources['teaser']['file'], sources['teaser']['poster']['file']]
 press += [path.relative_to(root).as_posix() for path in sorted((root / 'text').glob('*.txt'))]
@@ -15,6 +16,7 @@ press += [path.relative_to(root).as_posix() for path in sorted((root / 'text').g
 for filename, prefix, names in [
     ('duometry-presskit.zip', 'Duometry-Press-Kit', press),
     ('duometry-images.zip', 'Duometry-Images', images),
+    ('duometry-app-store-duo.zip', 'Duometry-App-Store-Duo', app_store),
     ('duometry-raw-screenshots.zip', 'Duometry-Raw-Screenshots', screenshots),
 ]:
     archive = root / 'downloads' / filename

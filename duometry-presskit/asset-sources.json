@@ -157,5 +157,83 @@
       "device": "iPhone Duo",
       "display": "Cover display"
     }
+  },
+  "app_store_screenshots": [
+    {
+      "file": "screenshots/app-store-duo/01-guess-folded.png",
+      "source": "Design/AppStore/2026-10-08-Duo-Framed-v1-Localized/Promos/en/01-guess-folded.png",
+      "source_manifest": "Design/AppStore/2026-10-08-Duo-Framed-v1-Localized/manifest.json",
+      "caption": "Guess the angle",
+      "alt": "A partly folded Duo showing the 73-degree target. See the angle. Fold your guess. Match the target. Trust your hands.",
+      "headline": "See the angle. Fold your guess.",
+      "subhead": "Match the target. Trust your hands.",
+      "width": 2007,
+      "height": 2853,
+      "language": "en",
+      "pose": "folded",
+      "sha256": "e74b228466e23ac0acc5c7aed1b1437b24baf9928730e535e915834cbde2c305"
+    },
+    {
+      "file": "screenshots/app-store-duo/02-result-open.png",
+      "source": "Design/AppStore/2026-10-08-Duo-Framed-v1-Localized/Promos/en/02-result-open.png",
+      "source_manifest": "Design/AppStore/2026-10-08-Duo-Framed-v1-Localized/manifest.json",
+      "caption": "Solo result",
+      "alt": "Solo results on Duo showing 1.4 degrees of error. Guess your way to perfection. Reveal every degree of difference.",
+      "headline": "Guess your way to perfection.",
+      "subhead": "Reveal every degree of difference.",
+      "width": 2007,
+      "height": 2853,
+      "language": "en",
+      "pose": "open",
+      "sha256": "48fd38a4134e50c012bbf400f21e4b9cdafefda86007c10bdd98114189aefe00"
+    },
+    {
+      "file": "screenshots/app-store-duo/03-together-open.png",
+      "source": "Design/AppStore/2026-10-08-Duo-Framed-v1-Localized/Promos/en/03-together-open.png",
+      "source_manifest": "Design/AppStore/2026-10-08-Duo-Framed-v1-Localized/manifest.json",
+      "caption": "Playing with friends",
+      "alt": "Group standings on an open Duo. Pass it. Beat your friends. One phone. 2–8 players.",
+      "headline": "Pass it. Beat your friends.",
+      "subhead": "One phone. 2–8 players.",
+      "width": 2007,
+      "height": 2853,
+      "language": "en",
+      "pose": "open",
+      "sha256": "4be18b5ec8214562c2bc5102f8c17c18dccde26c9a9952673e500493030498c1"
+    },
+    {
+      "file": "screenshots/app-store-duo/04-daily-open.png",
+      "source": "Design/AppStore/2026-10-08-Duo-Framed-v1-Localized/Promos/en/04-daily-open.png",
+      "source_manifest": "Design/AppStore/2026-10-08-Duo-Framed-v1-Localized/manifest.json",
+      "caption": "Daily challenge",
+      "alt": "A completed Daily challenge and weekly progress on Duo. A new challenge. Every day. Track your weekly progress.",
+      "headline": "A new challenge. Every day.",
+      "subhead": "Track your weekly progress.",
+      "width": 2007,
+      "height": 2853,
+      "language": "en",
+      "pose": "open",
+      "sha256": "c23f66f4e82c5835204c4fc978aca67154acf65ecc1b23194801c02b04f02bc4"
+    },
+    {
+      "file": "screenshots/app-store-duo/05-measure-folded.png",
+      "source": "Design/AppStore/2026-10-08-Duo-Framed-v1-Localized/Promos/en/05-measure-folded.png",
+      "source_manifest": "Design/AppStore/2026-10-08-Duo-Framed-v1-Localized/manifest.json",
+      "caption": "Free Measure",
+      "alt": "A partly folded Duo showing a live angle of 71.6 degrees. Every degree. In your hands. Fold Duo. Explore every degree.",
+      "headline": "Every degree. In your hands.",
+      "subhead": "Fold Duo. Explore every degree.",
+      "width": 2007,
+      "height": 2853,
+      "language": "en",
+      "pose": "folded",
+      "sha256": "a335963b241a7dd6cc43de761f231041e1017eaa26143bc54a76670ea24f524b"
+    }
+  ],
+  "app_store_source_notes": {
+    "set": "Design/AppStore/2026-10-08-Duo-Framed-v1-Localized",
+    "preservation": "Five English marketing PNGs copied byte-for-byte, including existing headlines and device frames.",
+    "open_frames": "The source set uses the official Apple Duo frame for images 02–04 and records user acceptance of its license.",
+    "folded_renders": "Images 01 and 05 reuse the trailer model. The source set labels these as concept renders and records commercial rights as unverified; inclusion here does not change that status."
   }
 }
