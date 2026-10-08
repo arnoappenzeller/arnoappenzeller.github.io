@@ -1,33 +1,12 @@
 Duometry
 
-Für Duo gemacht. Auf jedem iPhone ein Spiel.
+Duometry ist ein iPhone-Spiel, bei dem du Winkel schätzt. Auf dem iPhone Duo gibt eine Zahl den Winkel vor, den du durch Falten treffen sollst. Auf anderen iPhones stellst du deine Schätzung mit einem Regler ein. Wie nah du am Ziel liegst, erfährst du erst bei der Auswertung.
 
-Wie gut kannst du einen Winkel treffen? Duometry macht aus dieser einfachen Frage ein Spiel mit Fingerspitzengefühl, Gedächtnis und Präzision.
+Du kannst allein spielen oder ein Handy in einer Gruppe von zwei bis acht Personen herumreichen. Alle schätzen denselben Winkel, bevor die Ergebnisse gemeinsam aufgedeckt werden. Ein Spiel dauert fünf oder zehn Runden.
 
-Ansehen. Falten. Vergleichen.
+Bei der täglichen Herausforderung merkst du dir drei Winkel und versuchst, sie aus dem Gedächtnis nachzustellen. Jeden Tag gibt es eine neue Aufgabe. Abgeschlossene Aufgaben erscheinen in deiner Wochenübersicht.
 
-Auf dem iPhone Duo gibt eine Zahl den Zielwinkel vor. Versuche, ihn durch Falten des Geräts zu treffen. In Solo und im Mehrspielermodus bleibt das Ziel sichtbar, dein aktueller Faltwinkel dagegen verborgen. Vertraue deinen Händen und halte den Finger im Spielbereich gedrückt oder bestätige mit der Taste „Winkel bestätigen“. Die Auflösung zeigt deinen Winkel, die Abweichung und deine Punkte.
+Mit „Freies Messen“ liest du den Faltwinkel des Duo ab. Auf anderen iPhones kannst du unter „Winkel erkunden“ einen Winkel einstellen und seinen Wert ablesen. Duometry funktioniert offline und ohne Konto.
 
-Winkel schätzen auf anderen iPhones
-
-Auf einem iPhone ohne Scharniereingabe spielst du „Winkel schätzen“: Eine Zahl gibt den Zielwinkel vor, mit dem Winkelregler stellst du deine Schätzung nach Augenmaß ein. Das Ziel bleibt sichtbar, dein geschätzter Winkel wird erst bei der Auflösung angezeigt. Wähle zwischen einer einfachen Winkelzeichnung und einer Duo-Illustration.
-
-Allein oder gemeinsam
-
-Spiele allein fünf oder zehn Runden oder gib ein iPhone in einer Gruppe von zwei bis acht Personen weiter. Alle versuchen nacheinander, denselben Winkel zu treffen. Die Tipps bleiben geheim, bis alle bestätigt haben. Dann werden die Winkel verglichen, der Rundensieger und die Gesamtplatzierungen angezeigt. Ein perfekter Treffer bringt 100 Punkte; jeder Grad Abweichung kostet einen Punkt.
-
-Jeden Tag eine neue Herausforderung
-
-Die Tagesaufgabe auf dem Duo und anderen iPhones besteht aus drei für das jeweilige Datum festgelegten Winkeln. Bei „Nach Gefühl“ merkst du dir eine Zahl, bei „Nach Augenmaß“ eine Öffnung. Sobald du bereit bist, verschwindet das Ziel. Du schätzt aus dem Gedächtnis, indem du das Duo faltest oder auf anderen iPhones den Winkelregler nutzt. Abgeschlossene Aufgaben füllen deine Wochenübersicht. Das erste offizielle Ergebnis bleibt gespeichert; weitere Übungsversuche ändern es nicht. Begonnene Tagesaufgaben lassen sich nach dem Beenden der App fortsetzen.
-
-• Solospiele mit durchschnittlicher Abweichung, bestem Versuch und teilbaren Ergebniskarten.
-• Getrennte persönliche Bestleistungen für das Duo-Spiel und „Winkel schätzen“.
-• Lokaler Mehrspielermodus für zwei bis acht Personen auf einem Gerät.
-• Animierte Auflösung mit haptischem Feedback.
-• Tagesaufgaben mit drei Winkeln und einer Wochenübersicht.
-• „Freies Messen“: den aktuellen Faltwinkel auf dem Duo ablesen und festhalten. „Winkel erkunden“ nutzt auf anderen iPhones den Winkelregler.
-• Helles, dunkles oder systemabhängiges Erscheinungsbild sowie Winkel- und Duo-Illustrationen.
-
-Duometry funktioniert offline und benötigt kein Konto. Es gibt keine Analysefunktionen und keinen Online-Mehrspielermodus. Abgeschlossene Solospiele, Tagesfortschritt und Einstellungen werden lokal gespeichert. Laufende Solo- und Mehrspielerrunden werden nach dem Beenden der App nicht wiederhergestellt.
-
-Duometry als Beta mit TestFlight testen: https://testflight.apple.com/join/PUm89hu7
+TestFlight: https://testflight.apple.com/join/PUm89hu7
+Pressekontakt: arno.appenzeller@gmail.com

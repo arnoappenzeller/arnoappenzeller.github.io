@@ -9,8 +9,7 @@ sources = json.loads((root / 'asset-sources.json').read_text())
 screenshots = [item['file'] for item in sources['screenshots']]
 images = screenshots + [item['file'] for item in sources['artwork']] + ['icons/duometry-ios-1024.png']
 press = ['README.md', 'asset-sources.json'] + images
-press += ['videos/duometry-features-demo.mp4', 'videos/duometry-duo-poster.png',
-          sources['teaser']['file'], sources['teaser']['poster']['file']]
+press += [sources['teaser']['file'], sources['teaser']['poster']['file']]
 press += [path.relative_to(root).as_posix() for path in sorted((root / 'text').glob('*.txt'))]
 
 for filename, prefix, names in [

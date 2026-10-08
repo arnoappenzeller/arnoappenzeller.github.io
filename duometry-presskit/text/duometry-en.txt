@@ -1,33 +1,12 @@
 Duometry
 
-Made for Duo. Fun on any phone.
+Duometry is an iPhone game about guessing angles. On iPhone Duo, fold the phone to match a target angle. On other iPhones, adjust your guess with an on-screen dial. Your exact angle stays hidden until you’ve made your guess.
 
-How close can you get to an angle? Duometry turns that simple question into a game of feel, memory and precision.
+Play alone or take turns on one phone with two to eight players. Everyone guesses the same target before the results are revealed together. Choose five or ten rounds.
 
-See it. Fold it. Reveal it.
+Daily gives you three angles to remember and recreate, with a new challenge each day. Complete a challenge to add it to your weekly progress.
 
-On iPhone Duo, read a target number and match it by folding the phone. In Solo and Play Together, the target stays visible while your live hinge reading stays hidden. Trust your hands, then hold anywhere in the play area to lock in, or use the Lock in button. The reveal shows your angle, the difference and your score.
+Free Measure shows the phone’s fold angle on Duo. On other iPhones, Explore Angles lets you adjust an angle with the dial and see its value. Duometry works offline and needs no account.
 
-Guess the Angle on other iPhones
-
-On an iPhone without hinge input, match a target number by adjusting an angle with the dial. The target stays visible, but your guess stays unlabelled until the reveal. Choose a simple angle drawing or a Duo illustration.
-
-Play Solo or Play Together
-
-Play five or ten rounds on your own, or pass one phone between two to eight players. Each player takes a private turn at the same target. Once everyone has locked in, compare the guesses and see the round winner and overall standings. A perfect match earns 100 points; every degree of error costs a point.
-
-A fresh challenge every day
-
-Daily gives you three date-defined angles on Duo and other iPhones. Daily Fold asks you to remember a number; By Eye asks you to remember an opening. When you are ready, the target disappears and you guess from memory, by folding Duo or using the dial on other iPhones. Complete challenges to fill your weekly progress. Your first official result is saved, and you can practice again without changing it. Daily attempts resume after you quit the app.
-
-• Solo games with average error, closest guess and shareable scorecards.
-• Separate personal bests for Duo and Guess the Angle.
-• Local multiplayer for two to eight players on one phone.
-• Animated reveals with haptic feedback.
-• Three-angle Daily challenges, with weekly completion tracking.
-• Free Measure reads the live hinge angle on Duo, with Freeze angle and Resume. Explore Angles uses the dial on other iPhones.
-• Light, Dark and System appearance, with a choice of angle or Duo illustrations.
-
-Duometry works offline. No account is needed, and there are no analytics or online multiplayer. Completed solo history, Daily progress and preferences stay on your device. Active Solo and Together games are not restored after quitting.
-
-Try the Duometry beta on TestFlight: https://testflight.apple.com/join/PUm89hu7
+TestFlight: https://testflight.apple.com/join/PUm89hu7
+Press contact: arno.appenzeller@gmail.com

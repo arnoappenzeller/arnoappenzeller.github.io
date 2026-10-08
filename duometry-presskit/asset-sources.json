@@ -5,7 +5,7 @@
     {
       "file": "screenshots/raw/duo-target.png",
       "source": "Design/AppStore/2026-10-06/Upload/en/duo-inner/01-play.png",
-      "caption": "Match the target",
+      "caption": "Solo on iPhone Duo",
       "alt": "Solo on Duo shows a 73-degree target with hold-to-lock guidance.",
       "appearance": "light",
       "width": 2007,
@@ -20,7 +20,7 @@
     {
       "file": "screenshots/raw/duo-reveal.png",
       "source": "Design/AppStore/2026-10-06/Upload/en/duo-inner/02-result.png",
-      "caption": "The reveal",
+      "caption": "Solo result",
       "alt": "A 71.6-degree fold against a 73-degree target scores 99 points, with 1.4 degrees of error.",
       "appearance": "light",
       "width": 2007,
@@ -50,7 +50,7 @@
     {
       "file": "screenshots/raw/iphone-guess.png",
       "source": "Design/AppStore/2026-10-06/Upload/en/iphone/01-play.png",
-      "caption": "Shape your guess",
+      "caption": "Solo on iPhone",
       "alt": "Guess the Angle on iPhone shows a 73-degree target, a Duo illustration and an unlabelled angle dial.",
       "appearance": "light",
       "width": 1206,
@@ -65,7 +65,7 @@
     {
       "file": "screenshots/raw/iphone-together.png",
       "source": "Design/AppStore/2026-10-06/Upload/en/iphone/03-together.png",
-      "caption": "Play Together",
+      "caption": "Playing with friends",
       "alt": "Final standings show Alex with 489 points, Sam with 481 and Jules with 425.",
       "appearance": "light",
       "width": 1206,
@@ -80,7 +80,7 @@
     {
       "file": "screenshots/raw/iphone-daily.png",
       "source": "Design/AppStore/2026-10-06/Upload/en/iphone/04-daily.png",
-      "caption": "Daily · By Eye",
+      "caption": "Daily challenge",
       "alt": "Daily By Eye completed on iPhone: 3.4 degrees average error, 290 of 300 points and one of seven weekly challenges completed.",
       "appearance": "light",
       "width": 1206,
@@ -97,7 +97,7 @@
     {
       "file": "artwork/01-a-feel-for-angles.png",
       "source": "Design/PressKit/Artwork/01-a-feel-for-angles.png",
-      "caption": "A feel for angles",
+      "caption": "Solo play",
       "alt": "Solo target and reveal on iPhone Duo, on a charcoal background.",
       "width": 2400,
       "height": 1600,
@@ -106,7 +106,7 @@
     {
       "file": "artwork/02-light-and-dark.png",
       "source": "Design/PressKit/Artwork/02-light-and-dark.png",
-      "caption": "Two moods. Same instinct.",
+      "caption": "Light and dark mode",
       "alt": "Duometry in light and dark appearances, on a warm white background.",
       "width": 2400,
       "height": 1600,
@@ -115,7 +115,7 @@
     {
       "file": "artwork/03-play-together.png",
       "source": "Design/PressKit/Artwork/03-play-together.png",
-      "caption": "Pass it. Guess it. Settle it.",
+      "caption": "Playing with friends",
       "alt": "Multiplayer reveal and standings on iPhone, on a citron background.",
       "width": 2400,
       "height": 1600,
@@ -124,14 +124,6 @@
   ],
   "icon": "Design/PressKit/Brand/app-icon.png",
   "capture_notes": "Six native, unframed Simulator captures from October 6–7, 2026. Production SwiftUI views use deterministic sample input and players. Upload PNG bytes are preserved; their RGB pixels match the original captures. No frames, promotional text, cropping or retouching are added. Existing feature artwork is from September 2026.",
-  "video": "docs/guess-angle-qa/duometry-features-demo.mp4",
-  "video_note": "Earlier interface; retained as a feature tour. The October 2026 raw screenshots show the current design.",
-  "video_poster": {
-    "file": "videos/duometry-duo-poster.png",
-    "source": "docs/design-iterations/07/final-regression/captures/79EDC63A-0E63-4A7D-B583-8674EC7C5FB2.png",
-    "device": "iPhone Duo",
-    "display": "Cover display"
-  },
   "reference_presskits": [
     "mubrowser-5-presskit",
     "muai-presskit"
@@ -153,6 +145,17 @@
       "width": 1920,
       "height": 1080,
       "sha256": "8efca58b71a817a6325a85b02695ba82c1d98913f7089e6172067b48face0fe9"
+    }
+  },
+  "archived_video": {
+    "file": "videos/duometry-features-demo.mp4",
+    "source": "docs/guess-angle-qa/duometry-features-demo.mp4",
+    "note": "Earlier interface. Retained at its original URL for existing links, excluded from the current page and downloads.",
+    "poster": {
+      "file": "videos/duometry-duo-poster.png",
+      "source": "docs/design-iterations/07/final-regression/captures/79EDC63A-0E63-4A7D-B583-8674EC7C5FB2.png",
+      "device": "iPhone Duo",
+      "display": "Cover display"
     }
   }
 }

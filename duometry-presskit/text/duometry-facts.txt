@@ -1,28 +1,19 @@
-Duometry — Facts & requirements
+Duometry — Facts
 
-App: Duometry · Version 1.0 · Developed by Arno Appenzeller.
+App: Duometry · Version 1.0
 
-iPhone: iOS 17 or later. On phones without hinge input, Guess the Angle uses an angle dial.
+Compatibility: iPhone with iOS 17 or later. Folding requires iPhone Duo with iOS 27.1 or later.
 
-Duo experience: iPhone Duo with iOS 27.1 or later and available hinge input. In Solo and Together, match the visible target number by folding; the live reading stays hidden until reveal.
+Players: Solo or 2–8 players sharing one phone.
 
-Players & rounds: Solo or two to eight players passing one device. Five or ten rounds per game.
+Languages: English, German, Spanish and French.
 
-Daily challenges: Three date-defined targets each day: Daily Fold or By Eye, using folding on Duo or the dial on other iPhones. The target disappears before guessing. Weekly completion tracking, saved official results and repeat practice.
-
-Free Measure: Live hinge-angle readings on Duo, with Freeze angle and Resume. Explore Angles on other iPhones uses the dial to set the illustrated angle.
-
-Appearance: System, Light or Dark. Angle and Duo illustration styles can be chosen for measurement and guessing, with a separate reveal-style preference.
-
-Connectivity & storage: Offline play. No accounts, analytics or online multiplayer. Completed solo history, Daily attempts and preferences are stored locally. Daily attempts resume after quitting; active Solo and Together games do not.
-
-Press materials: English and German press copy. Six current, unframed English screenshots, three feature images, a 1024 × 1024 app icon, a 21-second teaser trailer with music and an earlier feature-tour video.
+Availability: Beta available on TestFlight. Release date to be announced.
 
 Price: To be announced.
 
-Release date: To be announced.
+Developer: Arno Appenzeller
 
-TestFlight: Join the beta on TestFlight: https://testflight.apple.com/join/PUm89hu7
-
-Press contact: Arno Appenzeller · arno.appenzeller@gmail.com
+TestFlight: https://testflight.apple.com/join/PUm89hu7
+Press contact: arno.appenzeller@gmail.com
 Website: https://arno.app
