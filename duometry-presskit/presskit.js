@@ -3,6 +3,16 @@
 
   const normalize = (element) => element.textContent.trim().replace(/\s+/g, ' ');
 
+  function revealLinkedSection() {
+    if (location.hash === '#raw-screenshots') {
+      const section = document.getElementById('raw-screenshots');
+      if (section) section.open = true;
+    }
+  }
+  window.addEventListener('hashchange', revealLinkedSection);
+  revealLinkedSection();
+
+
   function plainText(element) {
     if (element.hasAttribute('data-copy-ui')) return '';
 

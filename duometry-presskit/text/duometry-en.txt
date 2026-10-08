@@ -10,7 +10,7 @@ On iPhone Duo, read a target number and match it by folding the phone. In Solo a
 
 Guess the Angle on other iPhones
 
-On an iPhone without hinge input, match a target number by adjusting an angle with a slider. The target stays visible, but your guess stays unlabelled until the reveal. Choose a simple angle drawing or a Duo illustration.
+On an iPhone without hinge input, match a target number by adjusting an angle with the dial. The target stays visible, but your guess stays unlabelled until the reveal. Choose a simple angle drawing or a Duo illustration.
 
 Play Solo or Play Together
 
@@ -18,14 +18,14 @@ Play five or ten rounds on your own, or pass one phone between two to eight play
 
 A fresh challenge every day
 
-Daily on Duo gives you three date-defined angles. Daily Fold asks you to remember a number; By Eye asks you to remember an opening. When you are ready, the target disappears and you fold from memory. Complete challenges to fill your weekly progress. Your first official result is saved, and you can practice again without changing it. Daily attempts resume after you quit the app.
+Daily gives you three date-defined angles on Duo and other iPhones. Daily Fold asks you to remember a number; By Eye asks you to remember an opening. When you are ready, the target disappears and you guess from memory, by folding Duo or using the dial on other iPhones. Complete challenges to fill your weekly progress. Your first official result is saved, and you can practice again without changing it. Daily attempts resume after you quit the app.
 
 • Solo games with average error, closest guess and shareable scorecards.
 • Separate personal bests for Duo and Guess the Angle.
 • Local multiplayer for two to eight players on one phone.
 • Animated reveals with haptic feedback.
-• Three-angle Daily challenges on Duo, with weekly completion tracking.
-• Free Measure: read the live hinge angle on Duo, with Hold and Resume, or explore angles with a slider on other iPhones.
+• Three-angle Daily challenges, with weekly completion tracking.
+• Free Measure reads the live hinge angle on Duo, with Freeze angle and Resume. Explore Angles uses the dial on other iPhones.
 • Light, Dark and System appearance, with a choice of angle or Duo illustrations.
 
 Duometry works offline. No account is needed, and there are no analytics or online multiplayer. Completed solo history, Daily progress and preferences stay on your device. Active Solo and Together games are not restored after quitting.
