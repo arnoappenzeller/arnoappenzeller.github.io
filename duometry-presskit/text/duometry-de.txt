@@ -8,5 +8,8 @@ Bei der täglichen Herausforderung merkst du dir drei Winkel und versuchst, sie 
 
 Mit „Freies Messen“ liest du den Faltwinkel des Duo ab. Auf anderen iPhones kannst du unter „Winkel erkunden“ einen Winkel einstellen und seinen Wert ablesen. Duometry funktioniert offline und ohne Konto.
 
+Ab Montag, dem 19. Oktober 2026, für 2,99 US-Dollar im App Store erhältlich.
+
+App Store: https://apps.apple.com/app/id6814650592
 TestFlight: https://testflight.apple.com/join/PUm89hu7
 Pressekontakt: arno.appenzeller@gmail.com

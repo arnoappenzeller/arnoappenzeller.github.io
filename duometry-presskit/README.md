@@ -22,9 +22,11 @@ The Duo marketing images are copied unchanged from `Design/AppStore/2026-10-08-D
 
 The English and German descriptions cover guessing angles, solo and group play, Daily challenges, Free Measure / Explore Angles, and offline use. Compatibility, player count, languages, availability, price and developer details are kept in the compact fact sheet. Screenshots remain in English.
 
-## TestFlight
+## Release and TestFlight
 
-Public beta invitation: [https://testflight.apple.com/join/PUm89hu7](https://testflight.apple.com/join/PUm89hu7). The main header and short page use this URL. Downloadable English/German text and the fact sheet also include it so they can be shared independently. When changing the invitation link, update those locations and rebuild the complete press ZIP. Price and release date remain unannounced.
+Duometry will be available from Monday, October 19, 2026 for US$2.99. App Store: [https://apps.apple.com/app/id6814650592](https://apps.apple.com/app/id6814650592). The app ID is confirmed by Apple's October 12, 2026 App Store Connect notification. The public listing is not yet available as of October 14, 2026. The main header, fact sheet and downloadable English/German text include the release details and App Store link.
+
+Public beta invitation: [https://testflight.apple.com/join/PUm89hu7](https://testflight.apple.com/join/PUm89hu7). The main header and short page use this URL. Downloadable English/German text and the fact sheet also include it so they can be shared independently. When changing release details or either Apple link, update those locations and rebuild the complete press ZIP.
 
 ## Maintenance
 

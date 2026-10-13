@@ -8,5 +8,8 @@ Daily gives you three angles to remember and recreate, with a new challenge each
 
 Free Measure shows the phone’s fold angle on Duo. On other iPhones, Explore Angles lets you adjust an angle with the dial and see its value. Duometry works offline and needs no account.
 
+Available on the App Store from Monday, October 19, 2026 for US$2.99.
+
+App Store: https://apps.apple.com/app/id6814650592
 TestFlight: https://testflight.apple.com/join/PUm89hu7
 Press contact: arno.appenzeller@gmail.com
