@@ -1,6 +1,6 @@
 {
   "app": "Duometry",
-  "updated": "2026-10-09",
+  "updated": "2026-10-16",
   "screenshots": [
     {
       "file": "screenshots/raw/duo-target.png",
@@ -129,22 +129,24 @@
     "muai-presskit"
   ],
   "teaser": {
-    "file": "videos/Duometry-Trailer-EN-16x9-v1.0-Digital-Clouds.mp4",
-    "source": "Duometry-Trailer-EN-16x9-v1.0/Duometry-Trailer-EN-16x9-v1.0-Digital-Clouds.mp4",
-    "source_note": "Approved final export from the Duometry video project, copied byte-for-byte without re-encoding or audio changes.",
+    "file": "videos/Duometry-PressKit-v1-16x9.mp4",
+    "source": "marketing/video/out/Duometry-PressKit-v1/Duometry-PressKit-v1-16x9.mp4",
+    "source_note": "Approved press-kit export, copied byte-for-byte without re-encoding or audio changes.",
     "width": 1920,
     "height": 1080,
     "fps": 30,
-    "duration_seconds": 20.733333,
+    "duration_seconds": 37,
     "audio": "Digital Clouds soundtrack; stereo AAC, 48 kHz",
-    "bytes": 2703587,
-    "sha256": "23f7af461a1180b779a262b08b5369e33685b2c387fd1fe5b3c25a97734dc4ec",
+    "bytes": 4341337,
+    "sha256": "31c9770df8290c85518e300277895c139db1a0c74369826e54f8a68859dbf88c",
+    "copy": "English explanatory text overlays; native app footage and results are preserved.",
     "poster": {
-      "file": "videos/duometry-trailer-poster.jpg",
-      "source_frame_seconds": 1.8,
+      "file": "videos/duometry-presskit-v1-poster.jpg",
+      "source": "marketing/video/out/Duometry-PressKit-v1/Poster-16x9.jpg",
+      "source_frame_seconds": 1,
       "width": 1920,
       "height": 1080,
-      "sha256": "8efca58b71a817a6325a85b02695ba82c1d98913f7089e6172067b48face0fe9"
+      "sha256": "03cad8fd4e8ba627b8ff7430d24c51d22713090a2089d59ad14899274d53a9e7"
     }
   },
   "archived_video": {
@@ -235,5 +237,46 @@
     "preservation": "Five English marketing PNGs copied byte-for-byte, including existing headlines and device frames.",
     "open_frames": "The source set uses the official Apple Duo frame for images 02–04 and records user acceptance of its license.",
     "folded_renders": "Images 01 and 05 reuse the trailer model. The source set labels these as concept renders and records commercial rights as unverified; inclusion here does not change that status."
+  },
+  "archived_teasers": [
+    {
+      "file": "videos/Duometry-Trailer-EN-16x9-v1.0-Digital-Clouds.mp4",
+      "source": "Duometry-Trailer-EN-16x9-v1.0/Duometry-Trailer-EN-16x9-v1.0-Digital-Clouds.mp4",
+      "source_note": "Approved final export from the Duometry video project, copied byte-for-byte without re-encoding or audio changes.",
+      "width": 1920,
+      "height": 1080,
+      "fps": 30,
+      "duration_seconds": 20.733333,
+      "audio": "Digital Clouds soundtrack; stereo AAC, 48 kHz",
+      "bytes": 2703587,
+      "sha256": "23f7af461a1180b779a262b08b5369e33685b2c387fd1fe5b3c25a97734dc4ec",
+      "poster": {
+        "file": "videos/duometry-trailer-poster.jpg",
+        "source_frame_seconds": 1.8,
+        "width": 1920,
+        "height": 1080,
+        "sha256": "8efca58b71a817a6325a85b02695ba82c1d98913f7089e6172067b48face0fe9"
+      },
+      "note": "Earlier approved trailer. Retained with its poster at the original URLs for existing links; excluded from current pages and downloads."
+    }
+  ],
+  "teaser_without_copy": {
+    "file": "videos/Duometry-Social-v1-16x9.mp4",
+    "source": "marketing/video/out/Duometry-Social-v1/Duometry-Social-v1-16x9.mp4",
+    "source_note": "Approved social export, copied byte-for-byte without re-encoding or audio changes.",
+    "width": 1920,
+    "height": 1080,
+    "fps": 30,
+    "duration_seconds": 37,
+    "audio": "Digital Clouds soundtrack; stereo AAC, 48 kHz",
+    "bytes": 4454363,
+    "sha256": "72a5ee485203e20c6b824be7d6685e3b0e998ba305dc37292e2c76cb2f86cbdd",
+    "copy": "No explanatory text overlays; native app text and the closing brand remain."
+  },
+  "video_notes": {
+    "capture": "Native SwiftUI Simulator footage with scripted hinge and press input on a 3D device visualization; not physical-device footage.",
+    "model_rights": "Existing concept model; commercial rights remain unverified. Inclusion does not change the existing provenance status.",
+    "sequence": "Main menu, Solo, multiplayer with contrasting folds, Free Measure.",
+    "source_provenance": "marketing/video/out/Duometry-PressKit-v1/provenance.json"
   }
 }

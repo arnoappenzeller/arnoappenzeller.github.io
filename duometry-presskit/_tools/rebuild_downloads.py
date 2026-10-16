@@ -10,7 +10,8 @@ screenshots = [item['file'] for item in sources['screenshots']]
 app_store = [item['file'] for item in sources['app_store_screenshots']]
 images = screenshots + app_store + [item['file'] for item in sources['artwork']] + ['icons/duometry-ios-1024.png']
 press = ['README.md', 'asset-sources.json'] + images
-press += [sources['teaser']['file'], sources['teaser']['poster']['file']]
+# Keep the standard press download compact; both MP4s have direct page links.
+press += [sources['teaser']['poster']['file']]
 press += [path.relative_to(root).as_posix() for path in sorted((root / 'text').glob('*.txt'))]
 
 for filename, prefix, names in [
