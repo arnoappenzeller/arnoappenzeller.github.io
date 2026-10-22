@@ -1,6 +1,6 @@
 # Duometry press kit
 
-Standalone Jekyll page following the µBrowser 5.0 and µAI press kits. Public route after website deployment: `/duometry-presskit/`. The minimal `/duometry-presskit/short/` page shows only the teaser player and TestFlight button. The existing dark/citron palette, typography, expandable sections and copy controls are retained. `layout: null`, `sitemap: false` and `noindex, nofollow` remain in place.
+Standalone Jekyll page following the µBrowser 5.0 and µAI press kits. Public route after website deployment: `/duometry-presskit/`. The minimal `/duometry-presskit/short/` page shows the teaser player, a prominent App Store button and a secondary TestFlight link. The existing dark/citron palette, typography, expandable sections and copy controls are retained. `layout: null`, `sitemap: false` and `noindex, nofollow` remain in place.
 
 ## Contents
 
@@ -27,12 +27,12 @@ The English and German descriptions cover guessing angles, solo and group play, 
 
 ## Release and TestFlight
 
-Duometry will be available from Monday, October 19, 2026 for US$2.99. App Store: [https://apps.apple.com/app/id6814650592](https://apps.apple.com/app/id6814650592). The app ID is confirmed by Apple's October 12, 2026 App Store Connect notification. The public listing is not yet available as of October 14, 2026. The main header, fact sheet and downloadable English/German text include the release details and App Store link.
+Duometry is available for US$2.99, released on Monday, October 19, 2026. App Store: [https://apps.apple.com/app/id6814650592](https://apps.apple.com/app/id6814650592). Apple's public listing and US price were verified on October 22, 2026. The main header and short page make the App Store download the primary action. The fact sheet and downloadable English/German text also include the release details and App Store link.
 
-Public beta invitation: [https://testflight.apple.com/join/PUm89hu7](https://testflight.apple.com/join/PUm89hu7). The main header and short page use this URL. Downloadable English/German text and the fact sheet also include it so they can be shared independently. When changing release details or either Apple link, update those locations and rebuild the complete press ZIP.
+Public beta invitation: [https://testflight.apple.com/join/PUm89hu7](https://testflight.apple.com/join/PUm89hu7). The main header and short page retain this URL as a secondary link. Downloadable English/German text and the fact sheet also include it so they can be shared independently. When changing release details or either Apple link, update those locations and rebuild the complete press ZIP.
 
 ## Maintenance
 
 On-page English/German descriptions and facts use short prose; their text downloads add TestFlight and contact information. Image sizes appear once per group. Detailed provenance and soundtrack credits stay in this README and the manifest. Copy controls are in the existing `presskit.js`; descriptions, downloads, TestFlight links and details sections work without JavaScript. Preview through Jekyll so front matter is removed. The page has no Liquid expressions or layout dependencies, so an isolated static preview can also remove only the YAML front matter.
 
-After editing assets or text, run `python3 _tools/rebuild_downloads.py` from this directory. The standard ZIP includes the current manifest-listed raw screenshots, App Store Duo images and artwork, icon, the press trailer's poster, press text, README and provenance manifest. Both MP4s remain separate downloads on the page. The same manifest also generates the image-only, App Store Duo and raw-screenshot ZIPs, keeping every download aligned with the page. The raw ZIP contains only the six PNGs; the Duo ZIP contains only its five original PNGs; the image ZIP includes both sets, feature artwork and the app icon. `/short/` retains its player-and-TestFlight layout and uses the current press trailer.
+After editing assets or text, run `python3 _tools/rebuild_downloads.py` from this directory. The standard ZIP includes the current manifest-listed raw screenshots, App Store Duo images and artwork, icon, the press trailer's poster, press text, README and provenance manifest. Both MP4s remain separate downloads on the page. The same manifest also generates the image-only, App Store Duo and raw-screenshot ZIPs, keeping every download aligned with the page. The raw ZIP contains only the six PNGs; the Duo ZIP contains only its five original PNGs; the image ZIP includes both sets, feature artwork and the app icon. `/short/` retains its compact player layout, uses the current press trailer and leads with the App Store download.
