@@ -5,7 +5,7 @@ Standalone Jekyll page following the µBrowser 5.0 and µAI press kits. Public r
 ## Contents
 
 - Current English and German press copy and fact sheet in `text/`.
-- Selected press coverage from Andru Edwards, UrAvgConsumer, MacRumors and iGeneration, displayed in an open section below the trailer. The main header links directly to it. `text/duometry-coverage.txt` includes all four source links and is part of the standard press ZIP.
+- Selected press coverage from Andru Edwards, UrAvgConsumer, MacRumors and iGeneration, displayed in an open section below the trailer. Two responsive video cards load official YouTube-hosted thumbnails on demand and link to the original videos; the Andru Edwards link starts at 3:06. No embedded player is loaded. Article links follow beneath, and the main header links directly to the section. `text/duometry-coverage.txt` includes all four source links and is part of the standard press ZIP; third-party thumbnails are not bundled.
 - Current graphite/citron app icon, 1024 × 1024 PNG, in `icons/`.
 - Six current, unframed English screenshots in a collapsed section at the end: three Duo inner-display captures at 2007 × 2853 and three iPhone captures at 1206 × 2622. Individual original PNG downloads and `downloads/duometry-raw-screenshots.zip` are available.
 - Three feature images at 2400 × 1600 in `artwork/`.
